@@ -1,11 +1,41 @@
+**English** | [Tiếng Việt](README.vi.md)
+
+<div align="center">
+
 # LLMs-local
 
-> 🌐 **Languages:** **English** | [Tiếng Việt](README.vi.md)
+<p><strong>A curated showcase of platforms, inference engines, UIs, open models, and tools for running LLMs 100% locally.</strong></p>
 
-A curated list of awesome platforms, tools, inference engines, and resources to run LLMs locally.
+<p>
+  <a href="https://github.com/namxely/LLMs-local"><img src="https://img.shields.io/github/stars/namxely/LLMs-local?style=for-the-badge&logo=github&color=yellow" alt="GitHub Stars"></a>
+  <a href="README.vi.md"><img src="https://img.shields.io/badge/Docs-English%20%7C%20Ti%E1%BA%BFng%20Vi%E1%BB%87t-00A86B?style=for-the-badge" alt="Bilingual EN/VI"></a>
+  <img src="https://img.shields.io/badge/Tools-190%2B%20Local%20AI-3B82F6?style=for-the-badge" alt="190+ Local AI Tools">
+  <img src="https://img.shields.io/badge/Curated-2026-FF6B35?style=for-the-badge" alt="Curated 2026">
+</p>
 
- 
-<img src="https://preview.redd.it/my-160gb-local-llm-rig-v0-qukd2c1lzk5f1.jpeg?auto=webp&s=eda341738c4e87aa8d6940d138804df741ea2b08">
+<p>
+  <a href="#inference-platforms">Inference Platforms</a> &nbsp;·&nbsp;
+  <a href="#inference-engines">Engines</a> &nbsp;·&nbsp;
+  <a href="#user-interfaces">UIs</a> &nbsp;·&nbsp;
+  <a href="#large-language-models">Models</a> &nbsp;·&nbsp;
+  <a href="#tools">Tools</a> &nbsp;·&nbsp;
+  <a href="#hardware">Hardware</a> &nbsp;·&nbsp;
+  <a href="#tutorials">Tutorials</a>
+</p>
+
+<img src="https://preview.redd.it/my-160gb-local-llm-rig-v0-qukd2c1lzk5f1.jpeg?auto=webp&s=eda341738c4e87aa8d6940d138804df741ea2b08" alt="160GB Local LLM Rig" width="820">
+
+</div>
+
+> [!TIP]
+> **Why run locally?** Keep full privacy, zero per-token API bills, and offline reliability across Windows, Linux, and Apple Silicon — from lightweight 1.5B models on CPU to multi-GPU clusters.
+
+```mermaid
+flowchart LR
+  A["1. Choose Hardware (CPU / GPU / Apple Silicon)"] --> B["2. Pick Engine (Ollama / llama.cpp / vLLM / MLX)"]
+  B --> C["3. Attach UI (Open WebUI / LM Studio / Cherry Studio)"]
+  C --> D["4. Extend (RAG / MCP / Coding Agents)"]
+```
 
 ## Table of Contents
 
@@ -436,4 +466,8 @@ A curated list of awesome platforms, tools, inference engines, and resources to 
 - **Original Author**: [@0xSojalSec](https://github.com/0xSojalSec)
 - **Curated & Updated**: Cleaned Table of Contents, removed dead links, fixed Codex reference, added 5 active local LLM tools (GPT4All, llamafile, TabbyAPI, RamaLama, Cherry Studio), and added Vietnamese translation ([README.vi.md](README.vi.md)).
 - **License**: No upstream license file was included in the original repository; attribution and original links are preserved above.
+
+---
+
+If you find this curated repository useful, consider giving it a ⭐ to bookmark it and help others discover it!
 

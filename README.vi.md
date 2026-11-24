@@ -1,10 +1,41 @@
+[English](README.md) | **Tiếng Việt**
+
+<div align="center">
+
 # LLMs-local (Chạy LLM Cục Bộ)
 
-> 🌐 **Ngôn ngữ:** [English](README.md) | **Tiếng Việt**
+<p><strong>Tổng hợp trực quan các nền tảng, inference engine, giao diện, mô hình mở và công cụ giúp chạy LLM 100% cục bộ.</strong></p>
 
-Danh sách tổng hợp các nền tảng, công cụ, inference engine và tài nguyên chất lượng cao giúp triển khai và chạy mô hình ngôn ngữ lớn (LLM) cục bộ trên máy cá nhân.
+<p>
+  <a href="https://github.com/namxely/LLMs-local"><img src="https://img.shields.io/github/stars/namxely/LLMs-local?style=for-the-badge&logo=github&color=yellow" alt="GitHub Stars"></a>
+  <a href="README.md"><img src="https://img.shields.io/badge/Docs-English%20%7C%20Ti%E1%BA%BFng%20Vi%E1%BB%87t-00A86B?style=for-the-badge" alt="Song ngữ Anh-Việt"></a>
+  <img src="https://img.shields.io/badge/Tools-190%2B%20Local%20AI-3B82F6?style=for-the-badge" alt="190+ Công cụ AI Cục bộ">
+  <img src="https://img.shields.io/badge/Curated-2026-FF6B35?style=for-the-badge" alt="Cập nhật 2026">
+</p>
 
-<img src="https://preview.redd.it/my-160gb-local-llm-rig-v0-qukd2c1lzk5f1.jpeg?auto=webp&s=eda341738c4e87aa8d6940d138804df741ea2b08">
+<p>
+  <a href="#nền-tảng-chạy-inference">Nền tảng</a> &nbsp;·&nbsp;
+  <a href="#inference-engines">Engines</a> &nbsp;·&nbsp;
+  <a href="#giao-diện-người-dùng-ui">Giao diện UI</a> &nbsp;·&nbsp;
+  <a href="#mô-hình-ngôn-ngữ-lớn-llms">Mô hình</a> &nbsp;·&nbsp;
+  <a href="#công-cụ--hệ-sinh-thái">Công cụ</a> &nbsp;·&nbsp;
+  <a href="#phần-cứng-hardware">Phần cứng</a> &nbsp;·&nbsp;
+  <a href="#tài-liệu--hướng-dẫn-tutorials">Hướng dẫn</a>
+</p>
+
+<img src="https://preview.redd.it/my-160gb-local-llm-rig-v0-qukd2c1lzk5f1.jpeg?auto=webp&s=eda341738c4e87aa8d6940d138804df741ea2b08" alt="160GB Local LLM Rig" width="820">
+
+</div>
+
+> [!TIP]
+> **Vì sao nên chạy LLM cục bộ?** Giữ toàn quyền riêng tư dữ liệu, không tốn chi phí token theo API và vận hành ổn định ngay cả khi offline trên Windows, Linux hay Apple Silicon.
+
+```mermaid
+flowchart LR
+  A["1. Chọn Phần cứng (CPU / GPU / Apple Silicon)"] --> B["2. Chọn Engine (Ollama / llama.cpp / vLLM / MLX)"]
+  B --> C["3. Gắn Giao diện (Open WebUI / LM Studio / Cherry Studio)"]
+  C --> D["4. Mở rộng (RAG / MCP / Coding Agents)"]
+```
 
 ## Mục lục
 
@@ -434,3 +465,7 @@ Danh sách tổng hợp các nền tảng, công cụ, inference engine và tài
 - **Tác giả gốc (Original Author)**: [@0xSojalSec](https://github.com/0xSojalSec)
 - **Cập nhật & Việt hóa**: Sắp xếp lại mục lục, loại bỏ liên kết hỏng, cập nhật liên kết OpenAI Codex, bổ sung 5 công cụ mới (GPT4All, llamafile, TabbyAPI, RamaLama, Cherry Studio) và biên dịch phiên bản tiếng Việt ([README.md](README.md)).
 - **Giấy phép (License)**: Kho gốc không đính kèm tệp `LICENSE`; toàn bộ nguồn tham khảo và tác giả gốc được giữ nguyên ghi nhận tại đây.
+
+---
+
+Nếu kho tài nguyên này hữu ích cho công việc của bạn, hãy tặng một ⭐ để lưu lại và giúp nhiều người biết đến hơn nhé!
